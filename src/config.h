@@ -1,9 +1,11 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
+#include <string>
+
 // Window settings
-constexpr int SCREEN_WIDTH = 1280;
-constexpr int SCREEN_HEIGHT = 720;
+constexpr int	SCREEN_WIDTH = 1280;
+constexpr int	SCREEN_HEIGHT = 720;
 
 // Camera settings
 constexpr float CAMERA_FOV = 75.0f;				// FOV degres

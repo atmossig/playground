@@ -18,7 +18,7 @@ void App::Init(int argc, char** argv) {
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
     glutInitWindowSize(SCREEN_WIDTH, SCREEN_HEIGHT);
     glutInitWindowPosition(100, 100);
-    glutCreateWindow("FreeGLUT Test App");
+    glutCreateWindow("Playground");
 
     glEnable(GL_DEPTH_TEST);
     glClearColor(0.1f, 0.1f, 0.1f, 1.0f); // Dark background
