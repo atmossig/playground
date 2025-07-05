@@ -1,8 +1,7 @@
 /freeglut/
 
-/bin/
-
-/objects/
+objects
+bin
 
 *.vs
 *.vcxproj.user
