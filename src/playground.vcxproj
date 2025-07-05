@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="app.cpp" />
     <ClCompile Include="camera.cpp" />
+    <ClCompile Include="control.cpp" />
     <ClCompile Include="grid.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
@@ -28,6 +29,7 @@
     <ClInclude Include="app.h" />
     <ClInclude Include="camera.h" />
     <ClInclude Include="config.h" />
+    <ClInclude Include="control.h" />
     <ClInclude Include="grid.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
