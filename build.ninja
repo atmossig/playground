@@ -17,16 +17,16 @@ rule link
   command = $cxx $in -o $out $ldflags
   description = Linking $out
 
-# Directory creation rules (Windows-specific)
+# Directory creation rules
 rule mkdir
-  command = if not exist $out mkdir $out
+  command = cmd.exe /c if not exist $out mkdir $out
   description = Creating directory $out
 
 # Ensure build directories exist
 build $builddir: mkdir
 build $bindir: mkdir
 
-# Compile
+# Compile using the unity build approach
 build $builddir/build_core.o: cxx $srcdir/_build_core.cpp | $builddir $srcdir/config.h $srcdir/main.cpp $srcdir/app.cpp $srcdir/app.h
 build $builddir/build_core_game.o: cxx $srcdir/_build_core_game.cpp | $builddir $srcdir/config.h $srcdir/camera.cpp $srcdir/camera.h $srcdir/control.cpp $srcdir/control.h $srcdir/grid.cpp $srcdir/grid.h
 
