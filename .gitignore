@@ -1,0 +1,9 @@
+/freeglut/
+
+/bin/
+
+/objects/
+
+*.vs
+*.vcxproj.user
+*.suo

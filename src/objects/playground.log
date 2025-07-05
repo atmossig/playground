@@ -1,0 +1,64 @@
+﻿  main.cpp
+C:\develop\playground\src\freeglut_test_changesize.h(5,6): error C2601: 'freeglut_test_changesize': local function definitions are illegal
+  (compiling source file 'main.cpp')
+      C:\develop\playground\src\app.h(13,1):
+      this line contains a '{' which has not yet been matched
+  
+C:\develop\playground\src\freeglut_test_keyboard.h(5,6): error C2601: 'freeglut_test_keyboard_process': local function definitions are illegal
+  (compiling source file 'main.cpp')
+      C:\develop\playground\src\app.h(13,1):
+      this line contains a '{' which has not yet been matched
+  
+C:\develop\playground\src\freeglut_test_rendertriangle.h(5,6): error C2601: 'freeglut_test_rendertriangle': local function definitions are illegal
+  (compiling source file 'main.cpp')
+      C:\develop\playground\src\app.h(13,1):
+      this line contains a '{' which has not yet been matched
+  
+C:\develop\playground\src\freeglut_test_renderscene_camera.h(6,7): warning C4459: declaration of 'cameraX' hides global declaration
+  (compiling source file 'main.cpp')
+      C:\develop\playground\src\camera.h(3,7):
+      see declaration of 'cameraX'
+  
+C:\develop\playground\src\freeglut_test_renderscene_camera.h(6,23): warning C4459: declaration of 'cameraY' hides global declaration
+  (compiling source file 'main.cpp')
+      C:\develop\playground\src\camera.h(3,23):
+      see declaration of 'cameraY'
+  
+C:\develop\playground\src\freeglut_test_renderscene_camera.h(6,39): warning C4459: declaration of 'cameraZ' hides global declaration
+  (compiling source file 'main.cpp')
+      C:\develop\playground\src\camera.h(3,39):
+      see declaration of 'cameraZ'
+  
+C:\develop\playground\src\freeglut_test_renderscene_camera.h(8,6): error C2601: 'freeglut_test_renderscene': local function definitions are illegal
+  (compiling source file 'main.cpp')
+      C:\develop\playground\src\app.h(13,1):
+      this line contains a '{' which has not yet been matched
+  
+C:\develop\playground\src\freeglut_test.h(10,6): error C2601: 'freeglut_test_createwindow': local function definitions are illegal
+  (compiling source file 'main.cpp')
+      C:\develop\playground\src\app.h(13,1):
+      this line contains a '{' which has not yet been matched
+  
+C:\develop\playground\src\test_triangle.h(5,6): error C2601: 'testTriangleRender': local function definitions are illegal
+  (compiling source file 'main.cpp')
+      C:\develop\playground\src\app.h(13,1):
+      this line contains a '{' which has not yet been matched
+  
+C:\develop\playground\src\freeglut_test_changesize.h(8,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\develop\playground\src\freeglut_test_renderscene_camera.h(15,2): error C3861: 'freeglut_test_rendertriangle': identifier not found
+  (compiling source file 'main.cpp')
+  
+C:\develop\playground\src\freeglut_test.h(21,18): error C2065: 'freeglut_test_renderscene': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\develop\playground\src\freeglut_test.h(22,18): error C2065: 'freeglut_test_changesize': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\develop\playground\src\freeglut_test.h(23,19): error C2065: 'freeglut_test_keyboard_process': undeclared identifier
+  (compiling source file 'main.cpp')
+  
+C:\develop\playground\src\app.h(27,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
