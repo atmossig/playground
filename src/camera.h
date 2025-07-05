@@ -12,8 +12,8 @@ public:
 	// Movement methods
 	void MoveForward(float deltaTime);
 	void MoveBackward(float deltaTime);
-	void MoveLeft(float deltaTime);
-	void MoveRight(float deltaTime);
+	void StrafeLeft(float deltaTime);
+	void StrafeRight(float deltaTime);
 private:
 	void UpdateCameraVectors();
 
