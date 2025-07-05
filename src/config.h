@@ -1,8 +1,6 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
-#include <string>
-
 // Window settings
 constexpr int	SCREEN_WIDTH = 1280;
 constexpr int	SCREEN_HEIGHT = 720;
