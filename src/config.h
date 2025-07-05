@@ -1,6 +1,10 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
+// Disable warnings
+#pragma warning(disable : 4505) // Unreferenced local function has been removed
+#pragma warning(disable : 4244) // Conversion from 'type1' to 'type2', possible loss of data
+
 // Window settings
 constexpr int	SCREEN_WIDTH = 1280;
 constexpr int	SCREEN_HEIGHT = 720;
